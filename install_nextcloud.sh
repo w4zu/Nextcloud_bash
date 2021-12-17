@@ -6,7 +6,7 @@
 # require root 
 # Variables can be changed
 phpversion=8.0
-ncversion=22
+ncversion=23
 domain="cloud.yourdomain.org" # Domain used for the nextcloud application, it must point to the server.
 admin_mail="youremail@domain.org" # Your email used for SSL certificates and postmaster for vhost apache.
 username=www-data # This is the user who has to launch the application with PHP by default is www-data.
@@ -146,6 +146,7 @@ then
 else
 #mkdir 
 /bin/mkdir -p $mydocroot
+
 #Download Nextcloud
 wget https://download.nextcloud.com/server/releases/latest-$ncversion.zip
 #Unzip
