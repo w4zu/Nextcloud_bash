@@ -1,12 +1,12 @@
 #!/bin/bash
-# Installation nextcloud 18 / Hub with talk/onlyoffice/agenda/task and sharing.
-# Require Linux Apache mysql PHP7.4+ minimum/Mariadb/certbot
+# Installation nextcloud 29 / Hub with talk/onlyoffice/agenda/task and sharing.
+# Require Linux Apache mysql PHP8.2+ minimum/Mariadb/certbot
 # Usage : changes variables and chmod +x nextcloud.sh && ./nextcloud.sh
 # Your domain must point to the server
 # require root 
 # Variables can be changed
-phpversion=8.0
-ncversion=23
+phpversion=8.2
+ncversion=29
 domain="cloud.yourdomain.org" # Domain used for the nextcloud application, it must point to the server.
 admin_mail="youremail@domain.org" # Your email used for SSL certificates and postmaster for vhost apache.
 username=www-data # This is the user who has to launch the application with PHP by default is www-data.
